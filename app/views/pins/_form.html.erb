@@ -1,0 +1,10 @@
+<%= simple_form_for(@pin, html: { class: "form-horizontal"}) do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.input :email %>
+
+  <br />
+
+  <%= f.button :submit, 'Sign up now!', class: "btn btn-primary" %>
+
+<% end %>

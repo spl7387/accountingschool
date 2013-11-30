@@ -1,0 +1,24 @@
+@import 'bootstrap';
+
+@import 'bootstrap-responsive';
+
+body { 
+  background: url(/pictures/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pagetopspacing{
+	margin-top:40px;
+}
+
+.footer{
+    margin-top: 50px;
+    color: $grayLight;
+    a{
+        color: $gray;
+    }
+}
+

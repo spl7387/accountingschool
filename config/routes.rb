@@ -1,4 +1,11 @@
 Accountingschool::Application.routes.draw do
+  
+  resources :pins
+
+  root :to => 'pages#home'
+  
+  # get 'about' => 'pages#about'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
